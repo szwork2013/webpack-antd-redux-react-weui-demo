@@ -1,0 +1,87 @@
+@media (min-width: 768px) {
+    body {
+        background: #eff3f6!important;
+    }
+}
+@media (max-width: 769px) {
+    body {
+        background: #FFFFFF!important;
+    }
+}
+
+
+.box.login {
+    height: 260px;
+    width: 332px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: -130px 0 0 -166px;
+}
+
+.box {
+    background: #fefefe;
+    border: 1px solid #C3D4DB;
+    border-top: 1px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -moz-box-shadow: rgba(0,0,0,0.15) 0 0 1px;
+    -webkit-box-shadow: rgba(0,0,0,0.15) 0 0 1px;
+    box-shadow: rgba(0,0,0,0.15) 0 0 1px;
+    color: #444;
+    font: normal 12px/14px Arial, Helvetica, Sans-serif;
+    margin: 0 auto 30px;
+    overflow: hidden;
+}
+.boxBody {
+    background: #fefefe;
+    border-top: 1px solid #dde0e8;
+    border-bottom: 1px solid #dde0e8;
+    padding: 10px 20px;
+}
+.box footer {
+    background: #eff4f6;
+    border-top: 1px solid #fff;
+    padding: 25px 26px;
+    overflow: hidden;
+}
+
+.btnLogin {
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 15px;
+    background: #a1d8f0;
+    background: -moz-linear-gradient(top, #badff3, #7acbed);
+    background: -webkit-gradient(linear, left top, left bottom, from(#badff3), to(#7acbed));
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#badff3', EndColorStr='#7acbed')";
+    border: 1px solid #7db0cc !important;
+    cursor: pointer;
+    padding: 11px 16px;
+    font: bold 11px/14px Verdana, Tahomma, Geneva;
+    text-shadow: rgba(0,0,0,0.2) 0 1px 0px;
+    color: #fff;
+    -moz-box-shadow: inset rgba(255,255,255,0.6) 0 1px 1px, rgba(0,0,0,0.1) 0 1px 1px;
+    -webkit-box-shadow: inset rgba(255,255,255,0.6) 0 1px 1px, rgba(0,0,0,0.1) 0 1px 1px;
+    box-shadow: inset rgba(255,255,255,0.6) 0 1px 1px, rgba(0,0,0,0.1) 0 1px 1px;
+    margin-left: 12px;
+    float: right;
+    padding: 7px 21px;
+}
+
+.des{
+    top: 50%;
+    font: bold 25px/30px Verdana, Tahomma, Geneva;
+}
+.ant-form-item {
+    margin-bottom: 14px!important;
+}
+
+.ant-form-item-required:before {
+    display: none!important;
+    margin-right: 4px;
+    content: "*";
+    font-family: SimSun;
+    font-size: 12px;
+    color: #f50;
+}
